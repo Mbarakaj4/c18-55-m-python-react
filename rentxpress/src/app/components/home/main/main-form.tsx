@@ -3,7 +3,7 @@ import "../../../css/style.css";
 
 const MainForm: React.FC = () => {
   return (
-    <div className="container_form w-11/12 bg-[#9CAAF4] p-2 flex items-center justify-center rounded-lg">
+    <div className="container_form w-11/12 bg-[#9CAAF4] p-2 flex items-center justify-center rounded-lg mt-8 z-[1]">
       <div className="form_bg  h-auto p-1  w-full items-center justify-center flex">
         <form className="car_form flex items-center justify-center text-[12px] sm:flex-wrap xl:flex-nowrap w-full">
           <div className="prt-form flex items-center justify-center flex-col sm:mt-1 text-white w-3/12 text-[10px] ">

@@ -12,7 +12,7 @@ const Main: React.FC = () => {
   };
 
   return (
-    <div className="menu w-[1208px] h-[125px] flex justify-between fixed items-center overflow-hidden mt-2 z-10">
+    <div className="menu w-[1208px] h-[125px] flex justify-between fixed items-center overflow-hidden z-10">
       <div className="logo mr-2 w-auto z-10">
         <Image src={logo} alt="" className="w-[254px] h-[125px] select-none" />
       </div>
