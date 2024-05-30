@@ -19,7 +19,7 @@ export default function Home() {
         {/* <LoaderComponent /> */}
       </div>
       {/* Pantalla inicio */}
-      <div className="main z-10 relative overflow-y-auto  w-full h-screen flex flex-col items-center border-[3px] border-blue-500">
+      <div className="main z-10 relative overflow-y-auto  w-full h-screen flex flex-col items-center">
           <Main_vector />
           {/* Menu */}
           <Main_Menu />
