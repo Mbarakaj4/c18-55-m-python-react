@@ -22,7 +22,7 @@ const Main_select: React.FC = () => {
         </span>
         <div className="why mt-3 flex items-center justify-center w-full">
           <div className="card-header w-[120px] h-[120px] rounded-[40%] bg-white flex justify-center items-center">
-            <Image src={phone} alt="" className="border" />
+            <Image src={phone} alt="" className="" />
           </div>
           <span className="text-why mt-3 w-3/4 ml-8 text-center text-[16px]">
             Nuestra atención al cliente está disponible las 24 horas del día,
