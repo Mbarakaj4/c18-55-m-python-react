@@ -5,7 +5,9 @@ import Main_Info_img from "./components/home/main/main-info-img";
 import Main_Form from "./components/home/main/main-form";
 import Main_corp from "./components/home/main/main-corp";
 import Main_vector from "./components/home/main/main-vectors";
-
+import Main_cars from "./components/home/main/main-cars";
+import Main_select from "./components/home/main/main-why-select";
+import Main_footer from "./components/home/main/main-footer";
 
 import "./css/animations.css";
 import "./css/style.css";
@@ -32,7 +34,9 @@ export default function Home() {
         </div>
           <Main_Form />
           <Main_corp/>
-
+          <Main_cars/>
+          <Main_select/>
+          <Main_footer/>
       </div>
     </div>
   );

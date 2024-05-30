@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@fontsource/roboto": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "gsap": "^3.12.5",
     "jquery": "^3.7.1",
     "json5": "^2.2.3",

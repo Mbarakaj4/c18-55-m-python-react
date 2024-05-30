@@ -1,0 +1,31 @@
+{
+  "images": [
+    "fo_esc",
+    "ho_civ_11",
+    "ho_civ_21",
+    "ho_crv",
+    "ho_fit",
+    "hy_ela",
+    "kila",
+    "rush",
+    "ty_cor",
+    "ty_hil_13",
+    "ty_hil_19",
+    "ty_hil_20"
+  ],
+  "cars": [
+    "Toyota Corolla 2005",
+    "Toyota Hilux 2020",
+    "Hyunday Elantra 2013",
+    "Kia Sorento 2014",
+    "Honda CRV 2010",
+    "Honda Fit 2010",
+    "Honda Civic 2011",
+    "Ford Escape 2012",
+    "Honda Civic 2021",
+    "Toyota Hilux 2013",
+    "Hyundai Elantra 2013",
+    "Kia Sorento 2014"
+  ],
+  "price": [30, 60, 35, 40, 38, 33, 34, 37, 55, 45, 35, 40]
+}
