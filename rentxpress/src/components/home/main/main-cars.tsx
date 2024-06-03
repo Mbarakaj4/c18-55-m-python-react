@@ -17,7 +17,7 @@ import star from "../../../images/svg/star.svg";
 const Main_cars: React.FC = () => {
   return (
     <div className="w-full h-auto flex flex-col justify-center items-center mt-8 bg-[#ebeefd]  p-6 pb-[5%]">
-      <span className="text-center text-[40px] w-1/2">
+      <span className="text-center text-[40px] w-1/2 font-noto-serif">
         <strong>Ofertas de alquiler de vehículos mas populares</strong>
       </span>
       <span className="text-[14px] w-1/2 text-center">
@@ -30,7 +30,7 @@ const Main_cars: React.FC = () => {
       <div className="card-cars flex justify-evenly flex-wrap w-11/12 mt-10 ">
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -45,7 +45,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">  
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -60,7 +60,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -75,7 +75,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -90,7 +90,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -105,7 +105,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -120,7 +120,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -135,7 +135,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -150,7 +150,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -165,7 +165,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -180,7 +180,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>
@@ -195,7 +195,7 @@ const Main_cars: React.FC = () => {
         </div>
         <div className="card-c w-[272px] mt-[3%] rounded-lg flex flex-col justify-between h-[215px] border overflow-hidden relative ">
           <div className="card-c-head w-full h-auto p-2 z-[1] text-white bg-black opacity-[70%] flex justify-between  ">
-            <span className="car-name text-[16px]">Toyota Corolla 2005</span>
+            <span className="car-name text-[14px]">Toyota Corolla 2005</span>
             <div>
               <Image src={star} alt="" className="" />
             </div>

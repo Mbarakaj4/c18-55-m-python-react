@@ -16,7 +16,7 @@ const Main_footer: React.FC=()=>{
                     <Image src={phone} alt="" className="fill-none" width={35} height={34}/>
                 </div>
                 <div className="border border-black w-11/12"></div>
-                <div className="corp m-5">
+                <div className="corp m-5 font-plus-jakarta-sans text-[16px]">
                     ©2024  RentXpress. All rights reserved
                 </div>
             </div>
