@@ -17,7 +17,7 @@ const MainMenu: React.FC = () => {
         <Image src={logo} alt="" className="w-[254px] h-[125px] select-none" />
       </div>
       <div className="menu">
-        <ul className="flex ml-[1%]">
+        <ul className="flex ml-[1%] font-cairo text-[14px]">
           <li
             className={`option-select text-nowrap text-[14px] font-bold mr-6 flex flex-col items-center select-none h-10 justify-center ${
               activeIndex === 0 ? "active" : ""
@@ -37,7 +37,7 @@ const MainMenu: React.FC = () => {
             }`}
             onClick={() => handleClick(1)}
           >
-            <Link href="/pagina2">
+            <Link href="/preguntas">
               <span className="hover:mb-2 transition-all">Preguntas Frecuentes</span>
             </Link>
             <div

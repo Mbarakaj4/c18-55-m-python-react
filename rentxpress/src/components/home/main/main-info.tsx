@@ -12,11 +12,11 @@ const Main_Info: React.FC = () => {
   };
 
   return (
-    <div className="main-info w-full h-full flex justify-center items-center overflow-hidden flex-col">
-      <h1 className="text-[40px] w-[586px] font-bold ">
+    <div className="main-info w-11/12 h-full flex justify-center items-center overflow-hidden flex-col">
+      <h1 className="text-[40px] w-[586px] font-bold font-noto-serif">
         Alquila el vehículo perfecto para tu próximo viaje con nosotros
       </h1>
-      <span className="xl:text-[14px] w-[586px] sm:text-[50px]">
+      <span className="xl:text-[14px] w-[586px] sm:text-[50px] font-cairo">
         Descubre los vehículos favoritos de nuestros usuarios en RentXpress.
         Desde elegantes sedanes hasta robustos SUVs, estos autos son los más
         alquilados y mejor valorados por su confiabilidad y confort. Encuentra

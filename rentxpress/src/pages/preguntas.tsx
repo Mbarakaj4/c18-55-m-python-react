@@ -1,11 +1,14 @@
 import React from 'react';
+import Quest from "../components/questions/preguntas"
+import Main_footer from '../components/home/main/main-footer';
 
-const preguntas: React.FC = () => {
+const Preguntas: React.FC = () => {
   return (
-    <div>
-      
+    <div className='main z-10 relative overflow-y-auto w-full h-screen flex flex-col items-center '>
+      <Quest/>
+      <Main_footer/>
     </div>
   );
 };
 
-export default preguntas;
+export default Preguntas;
