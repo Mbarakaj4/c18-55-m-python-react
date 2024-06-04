@@ -36,9 +36,11 @@ html, body {
   }
 }
 
-/* .menu{
-  backdrop-filter: blur(10px);
-} */
+.quest{
+ &.active{
+   backdrop-filter: blur(2px);
+ }
+}
 
 .pt-sans{
   font-family: "PT Sans", sans-serif;

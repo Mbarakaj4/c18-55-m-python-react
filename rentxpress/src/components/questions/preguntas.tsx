@@ -9,7 +9,7 @@ const Preguntas: React.FC = () => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
-  const faqItems = [
+  const items_quest = [
     {
       question: "¿Cómo puedo registrarme en RentXpress?",
       answer: "Para registrarte en RentXpress, debes ir a la página de registro y completar el formulario con tu información personal y de contacto. Luego, recibirás un correo electrónico de confirmación para activar tu cuenta."
@@ -45,15 +45,17 @@ const Preguntas: React.FC = () => {
       <h1 className="font-noto-serif text-[40px] font-light ml-2">
         Preguntas Frecuentes
       </h1>
-      {faqItems.map((item, index) => (
+      {items_quest.map((item, index) => (
         <div
           key={index}
-          className="quest flex flex-col h-auto overflow-hidden relative justify-center items-start w-[98%] m-2 bg-[#E7E7F4] p-2 rounded-md"
+          className={`quest flex flex-col h-auto overflow-hidden relative justify-center items-start w-[98%] m-2 bg-[#E7E7F4] p-2 rounded-md  ${
+            activeIndex === index ? "bg-transparent border border-black active" : ""
+          }`}
         >
           <div className="flex w-full justify-between items-center text-[#3E20E4] text-[20px]">
             <strong className="item-quest w-[90%]">{item.question}</strong>
             <div
-              className={`icons w-[10%] border h-auto pr-2 relative flex justify-end items-center ${
+              className={`icons w-[10%]  h-auto pr-2 relative flex justify-end items-center ${
                 activeIndex === index ? "h-auto" : ""
               }`}
               onClick={() => handleClick(index)}
