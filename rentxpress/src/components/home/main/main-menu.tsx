@@ -38,7 +38,9 @@ const MainMenu: React.FC = () => {
             onClick={() => handleClick(1)}
           >
             <Link href="/preguntas">
-              <span className="hover:mb-2 transition-all">Preguntas Frecuentes</span>
+              <span className="hover:mb-2 transition-all">
+                Preguntas Frecuentes
+              </span>
             </Link>
             <div
               className={`line bg-black ${activeIndex === 1 ? "active" : ""}`}
@@ -51,7 +53,9 @@ const MainMenu: React.FC = () => {
             onClick={() => handleClick(2)}
           >
             <Link href="/pagina3">
-              <span className="hover:mb-2 transition-all">Convertirse en Arrendatario</span>
+              <span className="hover:mb-2 transition-all">
+                Convertirse en Arrendatario
+              </span>
             </Link>
             <div
               className={`line bg-black ${activeIndex === 2 ? "active" : ""}`}
