@@ -52,7 +52,7 @@ const MainMenu: React.FC = () => {
             }`}
             onClick={() => handleClick(2)}
           >
-            <Link href="/pagina3">
+            <Link href="/arrendatario">
               <span className="hover:mb-2 transition-all">
                 Convertirse en Arrendatario
               </span>
@@ -67,7 +67,7 @@ const MainMenu: React.FC = () => {
             }`}
             onClick={() => handleClick(3)}
           >
-            <Link href="/pagina4">
+            <Link href="/nosotros">
               <span className="hover:mb-2 transition-all">Sobre Nosotros</span>
             </Link>
             <div

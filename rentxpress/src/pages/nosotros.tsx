@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Pagina4: React.FC = () => {
+const Nosotros: React.FC = () => {
   return (
     <div>
       <h1>Página 4</h1>
@@ -8,4 +8,4 @@ const Pagina4: React.FC = () => {
   );
 };
 
-export default Pagina4;
+export default Nosotros;
