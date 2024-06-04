@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html, body {
+  overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.main{
+  background-image: url('../images/svg/background.svg');
+  background-position: center;
+  background-repeat: repeat;
+  scrollbar-width:none ;
+}
+
+.line{
+  &.active{
+      animation: line-animation 0.3s ease-in forwards;
+  }
+}
+
+/* .menu{
+  backdrop-filter: blur(10px);
+} */
+
+.pt-sans{
+  font-family: "PT Sans", sans-serif;
+}
+
+.car_shadow{
+
+      filter: drop-shadow(0px 15px 2px rgba(0, 0, 0, 0.25));
+  
+}
+.container_form ,.locations-form {
+  box-shadow: 4px 4px 4px 0 #00000080;
+}
+
+.bg-orange{
+  background: linear-gradient(180deg, #F4690B 0%, #DC5F0A 25%, #C45409 50%, #AC4A08 75%, #944007 100%);
+}
+
+.btn-rent{
+box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.20), 0px -4px 4px 0px rgba(0, 0, 0, 0.20) inset;
+background: rgb(96,93,255);
+background: linear-gradient(81deg, rgba(96,93,255,1) 27%, rgba(143,101,255,1) 49%, rgba(161,104,255,1) 60%);
+
+}
+
+.loader{
+  z-index: 20;
+  animation: load-finish 1.5s ease-in-out 4.5s forwards ;
+}
+
+
+.charger{
+  animation: progress-bar 4.5s ease-out forwards;
+}
+
+
+@keyframes progress-bar{
+0%{
+  width: 0%;
+}
+100%{
+  width: 100%;
+}
+}
+
+@keyframes load-finish{
+  0%{
+      top: 0%;
+      opacity: 100%;
+  }
+  100%{
+      opacity: 0%;
+      top: -100%;
+  }
+}
+
+@keyframes line-animation{
+  0%{
+      width: 0%;
+      height: 2px;
+      border-radius: 50px;
+  }
+  100%{
+      width: 100%;
+      height: 2px;
+      border-radius: 50px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
