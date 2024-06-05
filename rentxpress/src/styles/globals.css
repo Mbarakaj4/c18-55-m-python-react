@@ -76,6 +76,12 @@ background: linear-gradient(81deg, rgba(96,93,255,1) 27%, rgba(143,101,255,1) 49
   animation: progress-bar 4.5s ease-out forwards;
 }
 
+.img-bg{
+  background-image: url('../images/jpg/atencion-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  scrollbar-width:none ;
+}
 
 @keyframes progress-bar{
 0%{

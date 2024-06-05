@@ -80,7 +80,7 @@ const MainMenu: React.FC = () => {
             }`}
             onClick={() => handleClick(4)}
           >
-            <Link href="/pagina5">
+            <Link href="/contactanos">
               <span className="hover:mb-2 transition-all">Contactanos</span>
             </Link>
             <div
