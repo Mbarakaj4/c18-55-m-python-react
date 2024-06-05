@@ -40,7 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'rentxpress',
 ]
+
+AUTH_USER_MODEL = 'rentxpress.CustomUser'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -70,6 +74,7 @@ TEMPLATES = [
         },
     },
 ]
+# Configurar el modelo de usuario personalizado
 
 WSGI_APPLICATION = 'api.wsgi.application'
 
@@ -78,15 +83,16 @@ WSGI_APPLICATION = 'api.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT'),
-    }
+'default': {
+'ENGINE': 'django.db.backends.postgresql',
+'NAME': 'rentxpress',
+'USER': 'postgres',
+'PASSWORD': '123456789',
+'HOST': '127.0.0.1', # o la IP de tu servidor de PostgreSQL
+'PORT': '5432',
 }
+}
+
 
 
 # Password validation
