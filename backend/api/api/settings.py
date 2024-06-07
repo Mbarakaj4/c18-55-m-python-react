@@ -40,11 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'rentxpress',
 ]
-
-AUTH_USER_MODEL = 'rentxpress.CustomUser'
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -74,7 +70,6 @@ TEMPLATES = [
         },
     },
 ]
-# Configurar el modelo de usuario personalizado
 
 WSGI_APPLICATION = 'api.wsgi.application'
 
@@ -91,10 +86,7 @@ DATABASES = {
         'HOST': config('DB_HOST'),
         'PORT': config('DB_PORT'),
     }
-}
-
-
-
+  
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
