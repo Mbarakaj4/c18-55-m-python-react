@@ -85,13 +85,15 @@ WSGI_APPLICATION = 'api.wsgi.application'
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.postgresql',
-'NAME': 'rentxpress',
-'USER': 'postgres',
-'PASSWORD': '123456789',
-'HOST': '127.0.0.1', # o la IP de tu servidor de PostgreSQL
+'NAME': 'your_db_name',
+'USER': 'your_db_user',
+'PASSWORD': 'your_db_password',
+'HOST': 'localhost', # o la IP de tu servidor de PostgreSQL
 'PORT': '5432',
 }
 }
+
+
 
 
 
