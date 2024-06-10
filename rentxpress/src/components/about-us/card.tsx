@@ -7,8 +7,8 @@ interface CardProps {
 
 export const Card: React.FC<CardProps> = ({title, body})=> {
     return (
-    <div className='px-56 py-5 font-cairo'>
-      <h3>{title ? title : 'Default Title'}</h3>
+    <div className='font-cairo w-full pr-[5%] pl-[5%]'>
+      <strong>{title ? title : 'Default Title'}</strong>
       <h3>{body ? body : 'Default Body'}</h3>
     </div>
     );

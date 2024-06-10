@@ -3,9 +3,9 @@ import { Card } from "./card";
 
 export const Main_About_us: React.FC = () => {
   return (
-    <div className="mt-[188px] w-[1442px] h-[497px] flex flex-col items-center justify-center bg-rentxpress">
+    <div className="mt-[8.5%] w-full h-auto flex flex-col items-center justify-center bg-[#9CAAF4] gap-y-10 p-[5%]">
       <Card
-        title="Mision"
+        title="Misión"
         body="En RentXpress, nuestra misión es transformar la experiencia de alquiler de vehículos, conectando a propietarios y arrendatarios a través de una plataforma segura, eficiente e intuitiva. Nos esforzamos por ofrecer movilidad accesible y flexible para todos, proporcionando opciones variadas y de calidad que se adapten a las necesidades de cada usuario. Creemos en la transparencia, la confianza y la innovación como pilares fundamentales para ofrecer un servicio excepcional y satisfacer a nuestros clientes."
       />
       <Card
@@ -15,3 +15,4 @@ export const Main_About_us: React.FC = () => {
     </div>
   );
 };
+
