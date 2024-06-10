@@ -15,3 +15,4 @@ export const Main_About_us: React.FC = () => {
     </div>
   );
 };
+
